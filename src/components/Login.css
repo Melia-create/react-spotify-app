@@ -1,0 +1,22 @@
+.login{
+    display:grid;
+    place-items: center;
+}
+.login-button{
+    border: none;
+    background: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 300;
+    color:white;
+}
+.login-button:hover{
+    background: #1db954;
+    cursor: pointer;
+}
+
+.login img{
+    width:autopx;
+    height:100px;
+}
