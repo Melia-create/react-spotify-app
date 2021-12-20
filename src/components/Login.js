@@ -9,11 +9,11 @@ export default function Login() {
         src="https://music-b26f.kxcdn.com/wp-content/uploads/2017/06/635963274692858859903160895_spotify-logo-horizontal-black.jpg"
         alt="Spotify logo"
          />
-            <button 
-            a href={loginUrl} 
-            className="login-button"
-            >Login to Spotify
-            </button>
+            <a href={loginUrl} 
+            className="login-link"
+            >
+            Login to Spotify
+            </a>
         </div>
     )
 }

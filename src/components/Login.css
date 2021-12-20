@@ -2,16 +2,15 @@
     display:grid;
     place-items: center;
 }
-.login-button{
-    border: none;
-    background: none;
+.login-link{
+    text-decoration: none;
     border-radius: 5px;
     padding: 10px;
     font-size: medium;
     font-weight: 300;
     color:white;
 }
-.login-button:hover{
+.login-link:hover{
     background: #1db954;
     cursor: pointer;
 }
