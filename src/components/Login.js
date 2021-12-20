@@ -1,5 +1,6 @@
 import React from 'react'
 import './Login.css';
+import { loginUrl } from '../config/spotify';
 
 export default function Login() {
     return (
@@ -9,7 +10,7 @@ export default function Login() {
         alt="Spotify logo"
          />
             <button 
-            a href="#" 
+            a href={loginUrl} 
             className="login-button"
             >Login to Spotify
             </button>
